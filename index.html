@@ -4,138 +4,150 @@ layout: default
 
 
 <style type="text/css">
-    .container{
-      max-width: 900px !important;
-    }
-    body{
-        font-weight: 200;
-        font-size: 16px;
-        /*background-color: rgb(43, 60, 197);*/
-        /*color: rgb(0, 79, 241);*/
-        /*color: white;*/
-        border-top:5px solid rgb(255, 180, 240);
-        border-bottom:5px solid orange;
-    }
-    b{
-      color:rgb(0, 79, 241);
-    }
-    .posts{
-        /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-        font-size: 14px;
+  .container {
+    max-width: 900px !important;
+  }
 
-    }
-    .news{
-      line-height: 1.5em;
-    }
-    .post{
-      border-left: 5px solid rgb(255, 180, 240);
-    }
-    .xtitle{
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 24px;
-        margin: 10px 0;
-        color: rgb(0, 79, 241);
-    }
-    
-    .posts .teaser{
-      align:center;
-      width: 100%;
-/*      height: 20%;*/
-      overflow: hidden;
-/*        width: 200px;*/
-/*        height: 350px;*/
-        height: 50%;
-        float: left;
-        margin: 0 0 0 10px;
-    }
+  body {
+    font-weight: 200;
+    font-size: 16px;
+    /*background-color: rgb(43, 60, 197);*/
+    /*color: rgb(0, 79, 241);*/
+    /*color: white;*/
+    border-top: 5px solid rgb(255, 180, 240);
+    border-bottom: 5px solid orange;
+  }
 
-    .posts .teaser-left{
+  b {
+    color: rgb(0, 79, 241);
+  }
+
+  .posts {
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-size: 14px;
+
+  }
+
+  .news {
+    line-height: 1.5em;
+  }
+
+  .post {
+    border-left: 5px solid rgb(255, 180, 240);
+  }
+
+  .xtitle {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    margin: 10px 0;
+    color: rgb(0, 79, 241);
+  }
+
+  .posts .teaser {
+    align: center;
+    width: 100%;
+    /*      height: 20%;*/
+    overflow: hidden;
+    /*        width: 200px;*/
+    /*        height: 350px;*/
+    height: 50%;
+    float: left;
+    margin: 0 0 0 10px;
+  }
+
+  .posts .teaser-left {
     margin: 0 auto;
-    max-width:300px;
-    max-height:150px;
+    max-width: 300px;
+    max-height: 150px;
     display: block;
     width: auto;
     height: auto;
-    }
+  }
 
-    .teaser-container{
+  .teaser-container {
     float: left;
-    width: 300px;  
+    width: 300px;
     height: 180px;
 
-    margin-right: 20px;  
-    margin-left: 20px;  
-    }
+    margin-right: 20px;
+    margin-left: 20px;
+  }
 
-    .post-hidden{
-      display: none;
-    }
+  .post-hidden {
+    display: none;
+  }
 
-    a{
-      color: #111;
-      position: relative;
-    }
-    a:after{
-      content: '';
-      position: absolute;
-      top: 60%;
-      left: -0.1em;
-      right: -0.1em;
-      bottom: 0;
-      transition:top 200ms cubic-bezier(0, 0.8, 0.13, 1);
-      /*background-color: rgba(225, 166, 121, 0.5);*/
-      background-color: rgba(255,211,30, 0.5);
-    }
+  a {
+    color: #111;
+    position: relative;
+  }
 
-    .emojilink:after{
-      background-color: rgba(255,211,30, 0.0) 
+  a:after {
+    content: '';
+    position: absolute;
+    top: 60%;
+    left: -0.1em;
+    right: -0.1em;
+    bottom: 0;
+    transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+    /*background-color: rgba(225, 166, 121, 0.5);*/
+    background-color: rgba(255, 211, 30, 0.5);
+  }
+
+  .emojilink:after {
+    background-color: rgba(255, 211, 30, 0.0)
       /*rgba(225, 166, 121, 0.0);*/
-    }
-    a:hover{
-      color:rgb(255, 180, 240);
-    }
-    a:hover:after{
-      color:rgb(255, 180, 240);
-      /*color: #111;*/
-      top:0%;
-    }
-    .xcode a:after{
-      content: '';
-      position: absolute;
-      top: 100%;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      transition:top 200ms cubic-bezier(0, 0.8, 0.13, 1);
-      /*background-color: rgba(225, 166, 121, 0.5);*/
-      background-color: #fff;
-    }
-    .xcode a:hover:after{
-      color: #fff;
-      /*color: #111;*/
-    }
-    .entry{
-        position: relative;
-        top:0;
-        left: 20px;
-        margin-top: 5px;
-    }
+  }
 
-    .posts > .post{
-        border-bottom: 0;
-        padding-bottom:0em;
-        padding-top: 10px;
-        margin-bottom: 10px;
-    }
-    .papertitle{
-        margin-top: 0px;
-        font-weight: 600;
-        font-size:16px;
-        font-style: italic;
-        /*font-style: italic;*/
-        /*height: 2.6em*/
-    }
+  a:hover {
+    color: rgb(255, 180, 240);
+  }
 
+  a:hover:after {
+    color: rgb(255, 180, 240);
+    /*color: #111;*/
+    top: 0%;
+  }
+
+  .xcode a:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+    /*background-color: rgba(225, 166, 121, 0.5);*/
+    background-color: #fff;
+  }
+
+  .xcode a:hover:after {
+    color: #fff;
+    /*color: #111;*/
+  }
+
+  .entry {
+    position: relative;
+    top: 0;
+    left: 20px;
+    margin-top: 5px;
+  }
+
+  .posts>.post {
+    border-bottom: 0;
+    padding-bottom: 0em;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .papertitle {
+    margin-top: 0px;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: italic;
+    /*font-style: italic;*/
+    /*height: 2.6em*/
+  }
 </style>
 
 <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -144,60 +156,91 @@ layout: default
 
 <script type="text/javascript">
 
-$(function(){
-    $('#vis_teaser').on('click', function(){
-        $('.unimportant').toggleClass('post-hidden')
-   });
-});
+  $(function () {
+    $('#vis_teaser').on('click', function () {
+      $('.unimportant').toggleClass('post-hidden')
+    });
+  });
 </script>
 
 <div>
-  
-<img style="width: 100px;float: left;" src="images/freeview_xiaodong.gif">
 
-<div style="position: relative; left:20px;">
-<div style="font-size:24px;font-weight: 300">Xiaodong Cun（寸晓东）</div>
-<div>Research Scientist</div>
-<div>Tencent AI Lab</div>
-<a href="mailto:vinthony@gmail.com">Email</a> / <a target="_blank" href="https://scholar.google.com/citations?user=p42qwXcAAAAJ">Google Scholar</a> / <a target="_blank" href="https://github.com/vinthony">Github</a> / <a target="_blank" href="https://www.zhihu.com/people/vinthony">ZhiHu</a> / <a target="_blank" href="./images/resume.pdf">CV</a>
-  
+  <img style="width: 100px;float: left;" src="images/freeview_xiaodong.gif">
+
+  <div style="position: relative; left:20px;">
+    <div style="font-size:24px;font-weight: 300">Zhuokai Zhao</div>
+    <div>PhD Candidate in Computer Science</div>
+    <div>University of Chicago</div>
+    <a href="mailto:zhuokai@uchicago.edu">Email</a>
+    / <a target="_blank" href="https://scholar.google.com/citations?user=EGcdEjEAAAAJ">Google Scholar</a>
+    / <a target="_blank" href="https://github.com/zhuokaizhao">Github</a>
+    / <a target="_blank" href="https://www.linkedin.com/in/zhuokai-zhao-a9385169/">LinkedIn</a>
+    / <a target="_blank" href="./resume/Zhuokai_Zhao_resume_fall_2023.pdf">Resume</a>
+    / <a target="_blank" href="./resume/Zhuokai_Zhao_resume_fall_2023.pdf">Curriculum vitae</a>
+
+  </div>
+
 </div>
 
-</div>
 
-
-<div id="Biography" class='xtitle' >Biography</div>
+<div id="Biography" class='xtitle'>Biography</div>
 <div style="text-align: justify;clear: both;">
-         I am currently a research scientist in the Visual Computing Center of <a href="https://ai.tencent.com/ailab/" target="_blank">Tencent AI Lab</a>. I received my M.S and Ph.D. degrees from the Department of Computer and Information Science, <a target="_blank" href="http://um.edu.mo/">University of Macau</a>, under the supervision of Dr. <a target="_blank" href="http://www.cis.umac.mo/~cmpun/">Chi-Man Pun</a> in 2018 and 2021 respectively. I received my B.Sc degree in Computer Science from <a target="_blank" href="https://en.xidian.edu.cn/">Xidian University</a>.
-      Currently, I am working on designing novel applications for image/video generation, translation and editing (<a href='https://zh.m.wikipedia.org/zh-hans/ACG'>especially in the ACG area !!!</a>) using AIGC related techniques. <br/>
-      <span style="color: rgb(0, 79, 241);">[We are always hiring self-motivated students as research interns for ACG-related research topics, please drop me an email if you are interested.]</span>
+  I am currently a research scientist in the Visual Computing Center of <a href="https://ai.tencent.com/ailab/"
+    target="_blank">Tencent AI Lab</a>. I received my M.S and Ph.D. degrees from the Department of Computer and
+  Information Science, <a target="_blank" href="http://um.edu.mo/">University of Macau</a>, under the supervision of Dr.
+  <a target="_blank" href="http://www.cis.umac.mo/~cmpun/">Chi-Man Pun</a> in 2018 and 2021 respectively. I received my
+  B.Sc degree in Computer Science from <a target="_blank" href="https://en.xidian.edu.cn/">Xidian University</a>.
+  Currently, I am working on designing novel applications for image/video generation, translation and editing (<a
+    href='https://zh.m.wikipedia.org/zh-hans/ACG'>especially in the ACG area !!!</a>) using AIGC related techniques.
+  <br />
+  <span style="color: rgb(0, 79, 241);">[We are always hiring self-motivated students as research interns for
+    ACG-related research topics, please drop me an email if you are interested.]</span>
 </div>
 
-<div id="News" class='xtitle'  >News</div>
+<div id="News" class='xtitle'>News</div>
 <ul class="news" style="line-height: 2em">
-<li>1 paper is conditionally accepted by <b>SIGGRAPH Asia 2023</b> (Conference Track). <div style="float: right;">2023.08 </div> </li>
-<li>4 papers are accepted by <b>ICCV-23</b>. <div style="float: right;">2023.07 </div> </li>
-<li>6 papers are accepted by <b>CVPR-23</b>. <div style="float: right;">2023.02 </div> </li>
-<li>1 paper is accepted by <b>AAAI-23</b>. <div style="float: right;">2022.11 </div> </li>
-<li>1 paper is conditionally accepted by <b>SIGGRAPH Asia 2022</b> (Conference Track). <div style="float: right;">2022.08 </div> </li>
-<li>2 papers are accepted by <b>ECCV 2022</b>. <div style="float: right;">2022.07 </div> </li>
-<li>1 paper is accepted by <b>CVPR 2022</b>. <div style="float: right;">2022.02 </div> </li>
-<!-- <li>First day at Tencent AI Lab! <div style="float: right;">2021.09.10 </div> </li>
+  <li>1 paper is conditionally accepted by <b>SIGGRAPH Asia 2023</b> (Conference Track). <div style="float: right;">
+      2023.08 </div>
+  </li>
+  <li>4 papers are accepted by <b>ICCV-23</b>. <div style="float: right;">2023.07 </div>
+  </li>
+  <li>6 papers are accepted by <b>CVPR-23</b>. <div style="float: right;">2023.02 </div>
+  </li>
+  <li>1 paper is accepted by <b>AAAI-23</b>. <div style="float: right;">2022.11 </div>
+  </li>
+  <li>1 paper is conditionally accepted by <b>SIGGRAPH Asia 2022</b> (Conference Track). <div style="float: right;">
+      2022.08 </div>
+  </li>
+  <li>2 papers are accepted by <b>ECCV 2022</b>. <div style="float: right;">2022.07 </div>
+  </li>
+  <li>1 paper is accepted by <b>CVPR 2022</b>. <div style="float: right;">2022.02 </div>
+  </li>
+  <!-- <li>First day at Tencent AI Lab! <div style="float: right;">2021.09.10 </div> </li>
 <li>Ph.D. Oral Defense. <div style="float: right;">2021.06.25 </div> </li>
 <li>One paper is accepted by <b>AAAI-21</b>. <div style="float: right;">2020.12 </div> </li>
 <li>One paper is accepted by <b>ECCV 2020</b>. <div style="float: right;">2020.07 </div> </li> -->
-<!-- <li>I will join Huawei Noah's Ark Lab as a research intern. <div style="float: right;">2020.03 </div> </li> -->
-<!-- <li>One paper is accepted by <b>TIP</b>! <div style="float: right;">2020.02 </div> </li> -->
-<!-- <li>One paper is accepted by <b>AAAI-20</b>! <div style="float: right;">2019.11 </div></li> -->
+  <!-- <li>I will join Huawei Noah's Ark Lab as a research intern. <div style="float: right;">2020.03 </div> </li> -->
+  <!-- <li>One paper is accepted by <b>TIP</b>! <div style="float: right;">2020.02 </div> </li> -->
+  <!-- <li>One paper is accepted by <b>AAAI-20</b>! <div style="float: right;">2019.11 </div></li> -->
 </ul>
 
-<div id="Activities" class='xtitle' >Activities</div>
+<div id="Activities" class='xtitle'>Activities</div>
 <ul class="news" style="line-height: 2em">
 
-<li>Intern FrondEnd Engineer, <i>Alibaba Group</i> <div style="float: right;">2014.7-9 </div></li>
-<li>Intern Algorithm Engineer, <i>HIKVision Research Institute</i> <div style="float: right;"><div style="float: right;">2018.5-7 </div> </div></li>
-<li>Asian University Machine Learning Camp, <i>Jeju National University</i> <div style="float: right;">2018.9</div></li>
-<li>Research Intern, <i>Huawei Noah's Ark Lab</i> <div style="float: right;">2020.3-11 </div></li>
+  <li>Intern FrondEnd Engineer, <i>Alibaba Group</i>
+    <div style="float: right;">2014.7-9 </div>
+  </li>
+  <li>Intern Algorithm Engineer, <i>HIKVision Research Institute</i>
+    <div style="float: right;">
+      <div style="float: right;">2018.5-7 </div>
+    </div>
+  </li>
+  <li>Asian University Machine Learning Camp, <i>Jeju National University</i>
+    <div style="float: right;">2018.9</div>
+  </li>
+  <li>Research Intern, <i>Huawei Noah's Ark Lab</i>
+    <div style="float: right;">2020.3-11 </div>
+  </li>
 </ul>
 
 <!-- <div id="Educations" class='xtitle' >Educations</div>
@@ -209,167 +252,184 @@ $(function(){
 </ul> -->
 
 
-<div id="Publications" class='xtitle' > Research Highlight <span style="color:#333;font-size: 14px; font-family: Helvetica, Arial, sans-serif; "> (🧑‍💻 Co-first Author, 📮 Corresponding Author) </span> </div> 
+<div id="Publications" class='xtitle'> Research Highlight <span
+    style="color:#333;font-size: 14px; font-family: Helvetica, Arial, sans-serif; "> (🧑‍💻 Co-first Author, 📮
+    Corresponding Author) </span> </div>
 
 
 <div class="posts">
   {% for post in site.posts %}
 
-    {% if post.highlight %}
-    <article class="post">
- 
-      <!-- <div style="position: relative; left:-50px; font-size: 18px;">{{post.year}}</div> -->
+  {% if post.highlight %}
+  <article class="post">
 
-      <!-- <div style="text-align:center;"><img class="teaser-img" src="{{post.teaser}}"> </div> -->
+    <!-- <div style="position: relative; left:-50px; font-size: 18px;">{{post.year}}</div> -->
 
-      <div class= "teaser-container">
-        <img class="teaser-left"  src="{{post.teaser}}">
-      </div>
+    <!-- <div style="text-align:center;"><img class="teaser-img" src="{{post.teaser}}"> </div> -->
 
-      <div class= "papertitle entry" >{{ post.title }}</div>
+    <div class="teaser-container">
+      <img class="teaser-left" src="{{post.teaser}}">
+    </div>
 
-      <div class="entry">
-        {{ post.authors }}
-      </div>
+    <div class="papertitle entry">{{ post.title }}</div>
 
-      <div class="entry">
-          <i>{{post.publication}}</i>, <i>{{post.year}}</i>
-          {% if post.journal%}
-           /
-            <i>{{post.journal}}</i>, <i>{{post.year}}</i>
-          {% endif %}  
-      </div>
+    <div class="entry">
+      {{ post.authors }}
+    </div>
 
-      <div class="entry">
-        
-        {% if post.arxiv%}
-        <a class='links' target="_blank" href="{{ post.arxiv_url }}" rel="paperurl">arXiv</a>
-        {% endif %}       
-        
-        {% if post.demo%}
-        /
-        <a class='links' target="_blank" href="{{ post.demo }}" rel="paperurl">Online Demo</a> 
-        {% endif %}
+    <div class="entry">
+      <i>{{post.publication}}</i>, <i>{{post.year}}</i>
+      {% if post.journal%}
+      /
+      <i>{{post.journal}}</i>, <i>{{post.year}}</i>
+      {% endif %}
+    </div>
 
-        {% if post.project%}
-        /
-        <a class='links' target="_blank" href="{{ post.project }}" rel="paperurl">Project Page</a> 
-        {% endif %}
-        
-        {% if post.code%} 
-        /
-        <a target="_blank" href="{{post.code}}">Github</a>
-        {% endif %} 
+    <div class="entry">
 
-        {% if post.code%} 
-        <div style="display: inline-block;float:right" class="xcode">
+      {% if post.arxiv%}
+      <a class='links' target="_blank" href="{{ post.arxiv_url }}" rel="paperurl">arXiv</a>
+      {% endif %}
+
+      {% if post.demo%}
+      /
+      <a class='links' target="_blank" href="{{ post.demo }}" rel="paperurl">Online Demo</a>
+      {% endif %}
+
+      {% if post.project%}
+      /
+      <a class='links' target="_blank" href="{{ post.project }}" rel="paperurl">Project Page</a>
+      {% endif %}
+
+      {% if post.code%}
+      /
+      <a target="_blank" href="{{post.code}}">Github</a>
+      {% endif %}
+
+      {% if post.code%}
+      <div style="display: inline-block;float:right" class="xcode">
         <!-- <a class="github-button" href="{{post.code}}" data-show-count="true">Star</a>  -->
-          <a href="{{post.code}}"><img src="https://img.shields.io/github/stars/{{post.code| replace:'https://github.com/', ''}}?style=social"/></a>
-        </div>
-        {% endif %} 
+        <a href="{{post.code}}"><img
+            src="https://img.shields.io/github/stars/{{post.code| replace:'https://github.com/', ''}}?style=social" /></a>
+      </div>
+      {% endif %}
 
-        <br>
-        <i style='display:inline-block;margin-top: 5px'>{{post.highlight_reason}}</i>
+      <br>
+      <i style='display:inline-block;margin-top: 5px'>{{post.highlight_reason}}</i>
 
-        </div>
-      <div style ="clear:both"></div>
-      <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
-    </article>
-    {% endif %}
+    </div>
+    <div style="clear:both"></div>
+    <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
+  </article>
+  {% endif %}
   {% endfor %}
 </div>
 
-<div id="Publications" class='xtitle' > Selected Publications <span style="color:#333;font-size: 14px; font-family: Helvetica, Arial, sans-serif; "> (🧑‍💻 Co-first Author, 📮 Corresponding Author) </span> <span style="color:#333;font-size: 14px; font-family: Helvetica, Arial, sans-serif; "> <a id="vis_teaser"> Clike to Show All 🔽 </a> </span> </div> 
+<div id="Publications" class='xtitle'> Selected Publications <span
+    style="color:#333;font-size: 14px; font-family: Helvetica, Arial, sans-serif; "> (🧑‍💻 Co-first Author, 📮
+    Corresponding Author) </span> <span style="color:#333;font-size: 14px; font-family: Helvetica, Arial, sans-serif; ">
+    <a id="vis_teaser"> Clike to Show All 🔽 </a> </span> </div>
 
 
 <div class="posts">
   {% for post in site.posts %}
 
-    {% if post.is_show %}
-    <article class="post">
- 
+  {% if post.is_show %}
+  <article class="post">
+
     {% else %}
     <article class="post unimportant post-hidden">
 
-    {% endif %}
+      {% endif %}
 
       <!-- <div style="position: relative; left:-50px; font-size: 18px;">{{post.year}}</div> -->
 
       <!-- <div style="text-align:center;"><img class="teaser-img" src="{{post.teaser}}"> </div> -->
 
-      <div class= "teaser-container">
-        <img class="teaser-left"  src="{{post.teaser}}">
+      <div class="teaser-container">
+        <img class="teaser-left" src="{{post.teaser}}">
       </div>
 
-      <div class= "papertitle entry" >{{ post.title }}</div>
+      <div class="papertitle entry">{{ post.title }}</div>
 
       <div class="entry">
         {{ post.authors }}
       </div>
 
       <div class="entry">
-          <i>{{post.publication}}</i>, <i>{{post.year}}</i>
-          {% if post.journal%}
-           /
-            <i>{{post.journal}}</i>, <i>{{post.year}}</i>
-          {% endif %}  
+        <i>{{post.publication}}</i>, <i>{{post.year}}</i>
+        {% if post.journal%}
+        /
+        <i>{{post.journal}}</i>, <i>{{post.year}}</i>
+        {% endif %}
       </div>
 
       <div class="entry">
-        
+
         {% if post.arxiv%}
         <a class='links' target="_blank" href="{{ post.arxiv_url }}" rel="paperurl">arXiv</a>
-        {% endif %}       
+        {% endif %}
 
         {% if post.extented_url%}
         /
         <a class='links' target="_blank" href="{{ post.extented_url }}" rel="paperurl">Extended Version</a>
-        {% endif %}       
-        
+        {% endif %}
+
         {% if post.demo%}
         /
-        <a class='links' target="_blank" href="{{ post.demo }}" rel="paperurl">Online Demo</a> 
+        <a class='links' target="_blank" href="{{ post.demo }}" rel="paperurl">Online Demo</a>
         {% endif %}
 
         {% if post.project%}
         /
-        <a class='links' target="_blank" href="{{ post.project }}" rel="paperurl">Project Page</a> 
+        <a class='links' target="_blank" href="{{ post.project }}" rel="paperurl">Project Page</a>
         {% endif %}
-        
-        {% if post.code%} 
+
+        {% if post.code%}
         /
         <a target="_blank" href="{{post.code}}">Github</a>
-        {% endif %} 
+        {% endif %}
 
-        {% if post.code%} 
+        {% if post.code%}
         <div style="display: inline-block;float:right" class="xcode">
-        <!-- <a class="github-button" href="{{post.code}}" data-show-count="true">Star</a>  -->
-        <a href="{{post.code}}"><img src="https://img.shields.io/github/stars/{{post.code| replace:'https://github.com/', ''}}?style=social"/></a>
+          <!-- <a class="github-button" href="{{post.code}}" data-show-count="true">Star</a>  -->
+          <a href="{{post.code}}"><img
+              src="https://img.shields.io/github/stars/{{post.code| replace:'https://github.com/', ''}}?style=social" /></a>
         </div>
-        {% endif %} 
+        {% endif %}
 
-        </div>
-      <div style ="clear:both"></div>
+      </div>
+      <div style="clear:both"></div>
       <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
     </article>
-  {% endfor %}
+    {% endfor %}
 </div>
 
 
-<div id="Academic Services" class='xtitle' > Academic Services</div>
+<div id="Academic Services" class='xtitle'> Academic Services</div>
 Reviewer of: PR, TPAMI, CVIU.
 
-<div id="Misc" class='xtitle' > Misc</div>
+<div id="Misc" class='xtitle'> Misc</div>
 <ul style='list-style: none;line-height: 2em;padding-left: 0;'>
-<!-- <li>🙅‍♂️ &nbsp;&nbsp;Rejections from AAAI18, CVPR18, ECCV18, ICCV19, CVPR20, ACM MM20, CVPR21. </li> -->
-<li>🎓 &nbsp;&nbsp;If you are looking for talent student on Machine Tranlation, please checkout my friend <a target="_blank" href="https://sunbowliu.github.io/">Xuebo Liu</a>. </li>
-<li>🎴 &nbsp;&nbsp;Level 19 (failed to level 20) in <a target="_blank" href="https://store.steampowered.com/app/646570/Slay_the_Spire/">Slay the Spire</a>. More than 10k death in <a href="http://www.celestegame.com/" target="_blank">Celeste</a>. </li>
-<li>🏃 &nbsp;&nbsp;Workout often & lose weight <span style="text-decoration:line-through">10kg</span> 7.5kg & 200+ hours in <a target="_blank" href="https://www.nintendo.com/games/detail/fitness-boxing-switch/" >Fitness Boxing</a> </li>
-<li>🎮 &nbsp;&nbsp;Cloud player of <a href="https://www.dota2.com/home">DOTA 2</a>, ancient player of <a href="https://en.wikipedia.org/wiki/FreeStyle_Street_Basketball">Freestyle</a>, just ordinary player. </li>
-<li>👨‍💻 &nbsp;&nbsp;Out of fashion front-end engineer. Try this website template at <a target="_blank" href="https://github.com/vinthony/academic">Github</a>.</li>
-<!-- <li>💪 &nbsp;&nbsp;Try often, success few, but insist always. </li> -->
-<li>💵 &nbsp;&nbsp;Lose the wallet of 0.2 <a target="_blank" href="https://www.google.com.hk/search?q=btc&rlz=1C5CHFA_enUS903US903&oq=btc&aqs=chrome.0.69i59j35i39j0l3j69i60l2j69i61.1806j1j1&sourceid=chrome&ie=UTF-8"> BTC</a> in 2013. </li>
-<li>☕️ &nbsp;&nbsp;A big fan of Coffee and Tea. </li>
-<li><a class='emojilink' target="_blank" href="https://vinthony.github.io/academicpages.github.io/talkmap.html">❤️</a> &nbsp;&nbsp;Since 2019.4.13 </li>
+  <!-- <li>🙅‍♂️ &nbsp;&nbsp;Rejections from AAAI18, CVPR18, ECCV18, ICCV19, CVPR20, ACM MM20, CVPR21. </li> -->
+  <li>🎓 &nbsp;&nbsp;If you are looking for talent student on Machine Tranlation, please checkout my friend <a
+      target="_blank" href="https://sunbowliu.github.io/">Xuebo Liu</a>. </li>
+  <li>🎴 &nbsp;&nbsp;Level 19 (failed to level 20) in <a target="_blank"
+      href="https://store.steampowered.com/app/646570/Slay_the_Spire/">Slay the Spire</a>. More than 10k death in <a
+      href="http://www.celestegame.com/" target="_blank">Celeste</a>. </li>
+  <li>🏃 &nbsp;&nbsp;Workout often & lose weight <span style="text-decoration:line-through">10kg</span> 7.5kg & 200+
+    hours in <a target="_blank" href="https://www.nintendo.com/games/detail/fitness-boxing-switch/">Fitness Boxing</a>
+  </li>
+  <li>🎮 &nbsp;&nbsp;Cloud player of <a href="https://www.dota2.com/home">DOTA 2</a>, ancient player of <a
+      href="https://en.wikipedia.org/wiki/FreeStyle_Street_Basketball">Freestyle</a>, just ordinary player. </li>
+  <li>👨‍💻 &nbsp;&nbsp;Out of fashion front-end engineer. Try this website template at <a target="_blank"
+      href="https://github.com/vinthony/academic">Github</a>.</li>
+  <!-- <li>💪 &nbsp;&nbsp;Try often, success few, but insist always. </li> -->
+  <li>💵 &nbsp;&nbsp;Lose the wallet of 0.2 <a target="_blank"
+      href="https://www.google.com.hk/search?q=btc&rlz=1C5CHFA_enUS903US903&oq=btc&aqs=chrome.0.69i59j35i39j0l3j69i60l2j69i61.1806j1j1&sourceid=chrome&ie=UTF-8">
+      BTC</a> in 2013. </li>
+  <li>☕️ &nbsp;&nbsp;A big fan of Coffee and Tea. </li>
+  <li><a class='emojilink' target="_blank" href="https://vinthony.github.io/academicpages.github.io/talkmap.html">❤️</a>
+    &nbsp;&nbsp;Since 2019.4.13 </li>
 </ul>
 </ul>
