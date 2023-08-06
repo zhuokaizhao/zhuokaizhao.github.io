@@ -5,7 +5,7 @@ date: 2021-11-01
 year: 2021
 venue: 'ArXiv'
 highlight: Ture
-# arxiv: 2305.19889
+arxiv: local
 arxiv_url: ./pdf/Master_thesis_Zhuokai_Zhao.pdf
 teaser: ./images/memorypiv.gif
 authors: <b>Zhuokai Zhao</b>,
