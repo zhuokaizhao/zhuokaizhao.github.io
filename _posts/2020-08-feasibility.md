@@ -3,10 +3,10 @@ title: "Early Feasibility Studies of Augmented Reality Navigation for Lateral Sk
 excerpt: 'TODO.'
 date: 2020-08-01
 year: 2020
-is_show: False
+is_show: True
 arxiv: Early_Feasibility_Studies_of_Augmented_Reality
 arxiv_url: https://journals.lww.com/otology-neurotology/Abstract/2020/08000/Early_Feasibility_Studies_of_Augmented_Reality.5.aspx
-# teaser: ./images/breaking.png
+teaser: ./images/feasibility.jpg
 authors: <a href='https://www.hopkinsmedicine.org/profiles/details/francis-creighton'>Creighton, Francis X.</a>,
          <a href='https://mathiasunberath.github.io/'>Mathias Unberath</a>,
          <a Tianyu Song></a>,

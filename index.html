@@ -10,12 +10,12 @@ layout: default
 
   body {
     font-weight: 200;
-    font-size: 18px;
+    font-size: 14px;
     /*background-color: rgb(43, 60, 197);*/
     /*color: rgb(0, 79, 241);*/
     /*color: white;*/
-    border-top: 5px solid rgb(255, 180, 240);
-    border-bottom: 5px solid orange;
+    /* border-top: 5px solid rgb(255, 180, 240); */
+    /* border-bottom: 5px solid orange; */
   }
 
   b {
@@ -33,7 +33,8 @@ layout: default
   }
 
   .post {
-    border-left: 5px solid rgb(255, 180, 240);
+    /* border-left: 5px solid rgb(255, 180, 240); */
+    border-left: 5px solid rgb(145, 70, 255);
   }
 
   .xtitle {
@@ -100,11 +101,13 @@ layout: default
   }
 
   a:hover {
-    color: rgb(255, 180, 240);
+    /* color: rgb(255, 180, 240); */
+    color: rgb(145, 70, 255);
   }
 
   a:hover:after {
-    color: rgb(255, 180, 240);
+    /* color: rgb(255, 180, 240); */
+    color: rgb(145, 70, 255);
     /*color: #111;*/
     top: 0%;
   }
@@ -166,10 +169,10 @@ layout: default
 <div>
   <img style="width: 100px;float: left;" src="images/selfie_cut.png">
   <div style="position: relative; left:20px;">
-    <div style="font-size:32px;font-weight: 300">Zhuokai Zhao</div>
-    <div style="font-size:18px;">PhD Candidate in Computer Science</div>
-    <div style="font-size:18px;">University of Chicago</div>
-    <div style="font-size:18px;">
+    <div style="font-size:20px;font-weight: 300">Zhuokai Zhao</div>
+    <div style="font-size:16px;">PhD Candidate in Computer Science</div>
+    <div style="font-size:16px;">University of Chicago</div>
+    <div style="font-size:16px;">
       <a target="_blank" href="mailto:zhuokai@uchicago.edu">Email</a> /
       <a target="_blank" href="https://scholar.google.com/citations?user=EGcdEjEAAAAJ">Google Scholar</a> /
       <a target="_blank" href="https://github.com/zhuokaizhao">Github</a> /
@@ -324,7 +327,7 @@ layout: default
 
       {% if post.code%}
       /
-      <a target="_blank" href="{{post.code}}">Github</a>
+      <a target="_blank" href="{{post.code}}">Code</a>
       {% endif %}
 
       {% if post.code%}
@@ -409,7 +412,7 @@ layout: default
 
         {% if post.code%}
         /
-        <a target="_blank" href="{{post.code}}">Github</a>
+        <a target="_blank" href="{{post.code}}">Code</a>
         {% endif %}
 
         {% if post.code%}
