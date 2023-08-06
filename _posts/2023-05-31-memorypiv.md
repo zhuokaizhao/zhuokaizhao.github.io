@@ -7,7 +7,7 @@ venue: 'ArXiv'
 highlight: Ture
 # arxiv: 2305.19889
 arxiv_url: ./pdf/Master_thesis_Zhuokai_Zhao.pdf
-teaser: ./images/memorypiv.png
+teaser: ./images/memorypiv.gif
 authors: <b>Zhuokai Zhao</b>,
          <a href='https://tmatsuzawa.github.io/'>Takumi Matsuzawa</a>,
          <a href='https://people.cs.uchicago.edu/~mmaire/'>Michael Maire</a>,
