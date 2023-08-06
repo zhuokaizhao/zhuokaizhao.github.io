@@ -1,5 +1,5 @@
 ---
-title: "System and method for assisted patient positioning"
+title: "System and Method for Assisted Patient Positioning"
 excerpt: 'TODO.'
 date: 2020-09-22
 year: 2020
