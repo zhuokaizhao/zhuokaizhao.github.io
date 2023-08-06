@@ -174,8 +174,8 @@ layout: default
       <a target="_blank" href="https://scholar.google.com/citations?user=EGcdEjEAAAAJ">Google Scholar</a> /
       <a target="_blank" href="https://github.com/zhuokaizhao">Github</a> /
       <a target="_blank" href="https://www.linkedin.com/in/zhuokai-zhao-a9385169/">LinkedIn</a> /
-      <a target="_blank" href="./resume/Zhuokai_Zhao_resume_fall_2023.pdf">Resume</a> /
-      <a target="_blank" href="./resume/Zhuokai_Zhao_resume_fall_2023.pdf">Curriculum vitae</a>
+      <a target="_blank" href="./pdf/Zhuokai_Zhao_resume_fall_2023.pdf">Resume</a> /
+      <a target="_blank" href="./pdf/Zhuokai_Zhao_resume_fall_2023.pdf">Curriculum vitae</a>
     </div>
   </div>
 </div>
@@ -270,9 +270,10 @@ layout: default
 </ul> -->
 
 
+<!-- use highlight: Ture in .md to put pub in this section -->
 <div id="Publications" class='xtitle'> Research Highlight
   <span style="color:#333;font-size: 14px; font-family: Helvetica, Arial, sans-serif; ">
-    (🧑‍💻 Co-first Author, 📮 Corresponding Author)
+    <!-- (🧑‍💻 Co-first Author, 📮 Corresponding Author) -->
   </span>
 </div>
 
@@ -306,6 +307,10 @@ layout: default
     </div>
 
     <div class="entry">
+
+      <!-- {% if post.pdf%}
+      <a target="_blank" href="{{ post.local_path }}" rel="paperurl">arXiv</a>
+      {% endif %} -->
 
       {% if post.arxiv%}
       <a class='links' target="_blank" href="{{ post.arxiv_url }}" rel="paperurl">arXiv</a>
@@ -346,8 +351,9 @@ layout: default
 </div>
 
 <div id="Publications" class='xtitle'> Selected Publications <span
-    style="color:#333;font-size: 14px; font-family: Helvetica, Arial, sans-serif; "> (🧑‍💻 Co-first Author, 📮
-    Corresponding Author) </span> <span style="color:#333;font-size: 14px; font-family: Helvetica, Arial, sans-serif; ">
+    style="color:#333;font-size: 14px; font-family: Helvetica, Arial, sans-serif; ">
+    <!-- (🧑‍💻 Co-first Author, 📮Corresponding Author)  -->
+  </span> <span style="color:#333;font-size: 14px; font-family: Helvetica, Arial, sans-serif; ">
     <a id="vis_teaser"> Clike to Show All 🔽 </a> </span> </div>
 
 
