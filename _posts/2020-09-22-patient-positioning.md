@@ -15,7 +15,7 @@ authors: <b>Zhuokai Zhao</b>,
          <a href='https://scholar.google.com/citations?user=lP-ul8sAAAAJ'>Jiangping Wang</a>,
          <a href='https://scholar.google.com/citations?user=E9-rksMAAAAJ'>Vivek Kumar Singh</a>,
          <a href='https://scholar.google.com/citations?user=S2BT6ogAAAAJ'>Terrence Chen</a>,
-         <a>Andreas Wimmer</a>,
-         and <a>Birgi Tamersoy</a>
+         <a href='https://patents.justia.com/inventor/andreas-wimmer'>Andreas Wimmer</a>,
+         and <a href='https://www.linkedin.com/in/birgi-tamersoy-68ba8b9/?originalSubdomain=de'>Birgi Tamersoy</a>
 publication: <b>U.S. Patent No. 10,783,655</b>
 ---
