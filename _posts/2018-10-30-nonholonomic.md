@@ -1,5 +1,5 @@
 ---
-title: "Trajectory Planning and Control for Nonholonomic Vehicle Among Onstacles"
+title: "Trajectory Planning and Control for Nonholonomic Robot Among Onstacles"
 # excerpt: 'TODO.'
 year: 2018
 venue: 'ArXiv'
