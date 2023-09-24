@@ -3,7 +3,6 @@ title: "Trajectory Planning and Control for Nonholonomic Robot Among Onstacles"
 # excerpt: 'TODO.'
 year: 2018
 venue: 'ArXiv'
-is_show: True
 arxiv: local
 is_show: True
 arxiv_url: ./pdf/nonholonomic.pdf
