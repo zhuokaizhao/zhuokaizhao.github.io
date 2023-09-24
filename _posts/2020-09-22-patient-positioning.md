@@ -4,7 +4,8 @@ title: "System and Method for Assisted Patient Positioning"
 date: 2020-09-22
 year: 2020
 venue: 'ArXiv'
-is_show: True
+highlight: True
+is_show: False
 arxiv: US10783655
 arxiv_url: https://patentimages.storage.googleapis.com/4a/ec/27/5535654c9e1208/US10783655.pdf
 teaser: ./images/patient_positioning.png
