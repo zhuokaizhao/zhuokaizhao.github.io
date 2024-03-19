@@ -14,5 +14,5 @@ authors: <b>Zhuokai Zhao</b>,
          Tianyi Liu,
          Lena Evans,
          and Ruth Toner
-# publication: Preprint
+publication: In submission
 ---

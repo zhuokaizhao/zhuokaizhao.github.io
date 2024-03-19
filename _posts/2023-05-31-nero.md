@@ -14,5 +14,5 @@ authors: <b>Zhuokai Zhao</b>,
          <a href='https://people.cs.uchicago.edu/~mmaire/'>Michael Maire</a>,
          <a href='http://irvinelab.uchicago.edu/'>William Irvine</a>,
          and <a href='https://people.cs.uchicago.edu/~glk/'>Gordon Kindlmann</a>
-# publication: Preprint
+publication: In submission
 ---
