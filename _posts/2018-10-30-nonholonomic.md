@@ -11,4 +11,5 @@ code: https://github.com/zhuokaizhao/Planning-and-Control-for-Nonholonomic-Robot
 authors: <b>Zhuokai Zhao</b>,
          <a href='https://mxu34.github.io/'>Mengdi Xu</a>,
          and <a href='https://www.linkedin.com/in/changxin-yan'>Changxin Yan</a>
+publication: Nonlinear Control and Planning in Robotics
 ---
