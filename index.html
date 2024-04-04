@@ -311,10 +311,13 @@ in 2016, where I was advised by
 
     <div class="entry">
       <i>{{post.publication}}</i>, <i>{{post.year}}</i>
-      <i>Preliminary version appeared in {{post.workshop}}</i>, <i>{{post.year}}</i>
       {% if post.journal%}
       /
       <i>{{post.journal}}</i>, <i>{{post.year}}</i>
+      {% endif %}
+      {% if post.workshop%}
+      /
+      <i>Preliminary version appeared in {{post.workshop}}</i>, <i>{{post.year}}</i>
       {% endif %}
     </div>
 
@@ -392,10 +395,13 @@ in 2016, where I was advised by
 
       <div class="entry">
         <i>{{post.publication}}</i>, <i>{{post.year}}</i>
-        <i>Preliminary version appeared in {{post.workshop}}</i>, <i>{{post.year}}</i>
         {% if post.journal%}
         /
         <i>{{post.journal}}</i>, <i>{{post.year}}</i>
+        {% endif %}
+        {% if post.workshop%}
+        /
+        <i>Preliminary version appeared in {{post.workshop}}</i>, <i>{{post.year}}</i>
         {% endif %}
       </div>
 
