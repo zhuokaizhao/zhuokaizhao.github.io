@@ -310,7 +310,9 @@ in 2016, where I was advised by
     </div>
 
     <div class="entry">
+      {% if post.publication%}
       <i>{{post.publication}}</i>, <i>{{post.year}}</i>
+      {% endif %}
       {% if post.journal%}
       /
       <i>{{post.journal}}</i>, <i>{{post.year}}</i>
@@ -361,7 +363,7 @@ in 2016, where I was advised by
   {% endfor %}
 </div>
 
-<div id="Publications" class='xtitle'> Selected Publications and Projects <span
+<div id="Publications" class='xtitle'> Publications <span
     style="color:#333;font-size: 14px; font-family: Helvetica, Arial, sans-serif; ">
     <!-- (🧑‍💻 Co-first Author, 📮Corresponding Author)  -->
   </span> <span style="color:#333;font-size: 14px; font-family: Helvetica, Arial, sans-serif; ">
@@ -394,7 +396,9 @@ in 2016, where I was advised by
       </div>
 
       <div class="entry">
+        {% if post.publication%}
         <i>{{post.publication}}</i>, <i>{{post.year}}</i>
+        {% endif %}
         {% if post.journal%}
         /
         <i>{{post.journal}}</i>, <i>{{post.year}}</i>
