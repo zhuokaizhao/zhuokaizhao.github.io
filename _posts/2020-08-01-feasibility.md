@@ -13,5 +13,5 @@ authors: <a href='https://www.hopkinsmedicine.org/profiles/details/francis-creig
          <b>Zhuokai Zhao</b>,
          <a href='https://www.hopkinsmedicine.org/profiles/details/mehran-armand'>Mehran Armand</a>,
          and <a href='https://www.hopkinsmedicine.org/profiles/details/john-carey'>John Carey</a>
-publication: <b>Otology & Neurotology</b>
+publication: Otology & Neurotology 41(7):p 883-888
 ---
