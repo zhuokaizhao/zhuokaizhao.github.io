@@ -1,6 +1,5 @@
 ---
 title: "Early Feasibility Studies of Augmented Reality Navigation for Lateral Skull Base Surgery"
-# excerpt: 'TODO.'
 date: 2020-08-01
 year: 2020
 is_show: True
