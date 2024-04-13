@@ -9,7 +9,7 @@ arxiv: local
 arxiv_url: ./pdf/Master_thesis_Zhuokai_Zhao.pdf
 teaser: ./images/memorypiv.gif
 code: https://github.com/zhuokaizhao/Memory-PIVnet
-authors: <b>Zhuokai Zhao</b>,
+authors: <b>Zhuokai Zhao</b>
         #  <a href='https://tmatsuzawa.github.io/'>Takumi Matsuzawa</a>,
         #  <a href='https://people.cs.uchicago.edu/~mmaire/'>Michael Maire</a>,
         #  <a href='http://irvinelab.uchicago.edu/'>William Irvine</a>,
