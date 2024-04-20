@@ -1,7 +1,7 @@
 ---
 title: "Robust Data Utilization for Efficient and Trustworthy Deep Learning"
 excerpt: 'TODO.'
-date: 2024-06-14
+date: 2024-04-20
 year: 2024
 venue: 'ArXiv'
 is_dissertation: True
