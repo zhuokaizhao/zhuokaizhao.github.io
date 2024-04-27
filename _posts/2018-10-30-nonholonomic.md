@@ -1,6 +1,6 @@
 ---
 title: "Trajectory Planning and Control for Nonholonomic Robot Among Onstacles"
-# excerpt: 'TODO.'
+is_other_project: True
 year: 2018
 venue: 'ArXiv'
 arxiv: local

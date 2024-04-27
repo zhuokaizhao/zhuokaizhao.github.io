@@ -1,19 +1,19 @@
 ---
 title: "OpenChemistry/Stempy: Stable Version"
-# excerpt: 'TODO.'
-date: 2020-12-21
-year: 2020
+is_other_project: True
+date: 2024-03-27
+year: 2024
 venue: 'ArXiv'
 is_show: True
-arxiv: 4383275
-is_show: True
-arxiv_url: https://zenodo.org/record/4383275
+arxiv: True
+arxiv_url: https://zenodo.org/records/10887925
 teaser: ./images/stempy.png
 code: https://github.com/OpenChemistry
-authors: <a href='https://www.linkedin.com/in/chrisharris5/'>Christopher J. Harris</a>,
-         <a href='https://www.kitware.com/patrick-avery/'>Patrick Avery</a>,
+authors: <a href='https://www.kitware.com/patrick-avery/'>Patrick Avery</a>,
+         <a href='https://www.linkedin.com/in/chrisharris5/'>Christopher J. Harris</a>,
          <a href='https://foundry.lbl.gov/about/staff/peter-ercius/'>Peter Ercius</a>,
          <a href='https://www.linkedin.com/in/alessandrogenova/'>Alessandro Genova</a>,
          <a href='https://www.linkedin.com/in/mhanwell'>Marcus Hanwell</a>,
          and <b>Zhuokai Zhao</b>
+publication: Zenodo
 ---
