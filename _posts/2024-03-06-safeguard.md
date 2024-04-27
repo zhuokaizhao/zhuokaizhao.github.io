@@ -3,7 +3,7 @@ title: "Safe Reinforcement Learning via Hierarchical Adaptive Chance-Constraint 
 date: 2024-03-06
 year: 2024
 venue: 'ArXiv'
-highlight: False
+is_other_publications: True
 is_show: True
 arxiv: 2310.03379
 arxiv_url: https://arxiv.org/abs/2310.03379
