@@ -14,5 +14,5 @@ authors: <b>Zhuokai Zhao</b>,
          Tianyi Liu,
          Lena Evans,
          and Ruth Toner
-publication: In submission
+publication: IEEE International Conference on Multimedia and Expo (ICME) Industry Track
 ---
