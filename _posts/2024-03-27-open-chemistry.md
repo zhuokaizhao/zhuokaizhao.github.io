@@ -1,9 +1,10 @@
 ---
 title: "OpenChemistry/Stempy: Stable Version"
-is_other_project: True
 date: 2024-03-27
 year: 2024
 highlight: False
+is_dissertation: False
+is_other_project: True
 venue: 'ArXiv'
 is_show: True
 arxiv: True

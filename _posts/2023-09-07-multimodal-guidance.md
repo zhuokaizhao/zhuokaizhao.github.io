@@ -3,6 +3,8 @@ title: "Multi-Modality Guidance Network For Missing Modality Inference"
 date: 2023-09-07
 year: 2023
 highlight: Ture
+is_dissertation: False
+is_other_project: False
 venue: 'ArXiv'
 arxiv: 2309.03452
 arxiv_url: https://arxiv.org/abs/2309.03452

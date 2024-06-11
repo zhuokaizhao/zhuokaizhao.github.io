@@ -3,6 +3,8 @@ title: "System and Method for Assisted Patient Positioning"
 date: 2020-09-22
 year: 2020
 highlight: True
+is_dissertation: False
+is_other_project: False
 venue: 'ArXiv'
 is_show: False
 arxiv: US10783655
