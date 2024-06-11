@@ -3,8 +3,9 @@ title: "Robust Data Utilization for Efficient and Trustworthy Deep Learning"
 excerpt: 'TODO.'
 date: 2024-04-20
 year: 2024
-venue: 'ArXiv'
+highlight: False
 is_dissertation: True
+venue: 'ArXiv'
 arxiv: local
 arxiv_url:
 teaser: ./images/phd_overview.png

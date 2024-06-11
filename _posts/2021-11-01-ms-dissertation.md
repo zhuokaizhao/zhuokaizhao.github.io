@@ -3,8 +3,8 @@ title: "Utilizing Both Past and Future: Multi-Frame Memory Based Network in Solv
 date: 2021-11-01
 year: 2021
 highlight: False
-venue: 'ArXiv'
 is_dissertation: True
+venue: 'ArXiv'
 arxiv: local
 arxiv_url: ./pdf/Master_thesis_Zhuokai_Zhao.pdf
 teaser: ./images/memorypiv.gif
