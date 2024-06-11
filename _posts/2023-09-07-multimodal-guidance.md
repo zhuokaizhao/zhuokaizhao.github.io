@@ -1,10 +1,9 @@
 ---
 title: "Multi-Modality Guidance Network For Missing Modality Inference"
-# excerpt: 'TODO.'
 date: 2023-09-07
 year: 2023
-venue: 'ArXiv'
 highlight: Ture
+venue: 'ArXiv'
 arxiv: 2309.03452
 arxiv_url: https://arxiv.org/abs/2309.03452
 teaser: ./images/multimodal-guidance.png

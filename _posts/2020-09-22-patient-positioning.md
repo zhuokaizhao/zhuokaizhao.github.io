@@ -1,10 +1,9 @@
 ---
 title: "System and Method for Assisted Patient Positioning"
-# excerpt: 'TODO.'
 date: 2020-09-22
 year: 2020
-venue: 'ArXiv'
 highlight: True
+venue: 'ArXiv'
 is_show: False
 arxiv: US10783655
 arxiv_url: https://patentimages.storage.googleapis.com/4a/ec/27/5535654c9e1208/US10783655.pdf

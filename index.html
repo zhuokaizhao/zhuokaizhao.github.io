@@ -307,13 +307,13 @@ layout: default
 </div>
 
 <div id="2024" class='xtitle'> 2024
-  <span style="color:#333;font-size: 14px; font-family: Helvetica, Arial, sans-serif; ">
-  </span>
+  <!-- <span style="color:#333;font-size: 14px; font-family: Helvetica, Arial, sans-serif; ">
+  </span> -->
 </div>
 <div class="posts">
   {% for post in site.posts %}
 
-  {% if post.year == 2024 %}
+  {% if post.year == 2024 and not post.is_dissertation %}
   <article class="post">
 
     <!-- <div style="position: relative; left:-50px; font-size: 18px;">{{post.year}}</div> -->

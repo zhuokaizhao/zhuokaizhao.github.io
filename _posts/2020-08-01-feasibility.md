@@ -2,6 +2,7 @@
 title: "Early Feasibility Studies of Augmented Reality Navigation for Lateral Skull Base Surgery"
 date: 2020-08-01
 year: 2020
+highlight: False
 is_other_publications: True
 is_show: True
 arxiv: 32569148
