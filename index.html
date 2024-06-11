@@ -312,7 +312,9 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
 
-  {% if post.year == 2024 and not post.is_dissertation %}
+  {% if post.year == 2024 %}
+
+  {% if post.is_dissertation == False %}
   <article class="post">
 
     <!-- <div style="position: relative; left:-50px; font-size: 18px;">{{post.year}}</div> -->
@@ -373,6 +375,7 @@ layout: default
     <div style="clear:both"></div>
     <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
   </article>
+  {% endif %}
   {% endif %}
   {% endfor %}
 </div>
@@ -720,9 +723,6 @@ layout: default
       </div>
       {% endif %}
 
-      <br>
-      <i style='display:inline-block;margin-top: 5px'>{{post.highlight_reason}}</i>
-
     </div>
     <div style="clear:both"></div>
     <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
@@ -867,7 +867,7 @@ layout: default
 <br /><br />
 <br /><br />
 <br /><br />
-<center>Last Updated: May 1, 2024</center>
+<center>Last Updated: June 24, 2024</center>
 <br /><br />
 <center>
   <script type='text/javascript' id='clustrmaps'
