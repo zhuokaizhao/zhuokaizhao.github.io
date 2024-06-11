@@ -313,7 +313,7 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
 
-  {% if post.year == 2024 %}
+  {% if post.year == 2024 and not post.is_dissertation %}
   <article class="post">
 
     <!-- <div style="position: relative; left:-50px; font-size: 18px;">{{post.year}}</div> -->
