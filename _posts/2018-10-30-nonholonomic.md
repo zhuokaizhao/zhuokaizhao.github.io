@@ -1,9 +1,7 @@
 ---
 title: "Trajectory Planning and Control for Nonholonomic Robot Among Onstacles"
 year: 2018
-highlight: False
-is_dissertation: False
-is_other_project: True
+other_project: True
 venue: 'ArXiv'
 arxiv: local
 is_show: True

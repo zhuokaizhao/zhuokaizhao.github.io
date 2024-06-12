@@ -312,9 +312,8 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
 
-  {% if post.year == 2024 %}
+  {% if post.year == 2024 and post.publication %}
 
-  {% if post.is_dissertation == 0 %}
   <article class="post">
 
     <!-- <div style="position: relative; left:-50px; font-size: 18px;">{{post.year}}</div> -->
@@ -376,7 +375,6 @@ layout: default
     <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
   </article>
   {% endif %}
-  {% endif %}
   {% endfor %}
 </div>
 <!-- publications in 2023 -->
@@ -387,7 +385,7 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
 
-  {% if post.year == 2023 %}
+  {% if post.year == 2023 and post.publication %}
   <article class="post">
 
     <!-- <div style="position: relative; left:-50px; font-size: 18px;">{{post.year}}</div> -->
@@ -460,7 +458,7 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
 
-  {% if post.year == 2020 %}
+  {% if post.year == 2020 and post.publication %}
   <article class="post">
 
     <!-- <div style="position: relative; left:-50px; font-size: 18px;">{{post.year}}</div> -->
@@ -603,7 +601,7 @@ layout: default
 </div>
 <div class="posts">
   {% for post in site.posts %}
-  {% if post.is_dissertation %}
+  {% if post.dissertation %}
   <article class="post">
 
     <div class="teaser-container">
@@ -661,7 +659,7 @@ layout: default
 
 
 <!-- open source software and project section -->
-<div id="Projects" class='xtitle'> other projects <span
+<div id="Projects" class='xtitle'> Other Projects <span
     style="color:#333;font-size: 14px; font-family: Helvetica, Arial, sans-serif; ">
   </span>
 </div>
@@ -669,7 +667,7 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
 
-  {% if post.is_other_project %}
+  {% if post.project %}
   <article class="post">
 
     <!-- <div style="position: relative; left:-50px; font-size: 18px;">{{post.year}}</div> -->

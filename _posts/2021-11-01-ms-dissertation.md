@@ -2,9 +2,7 @@
 title: "Utilizing Both Past and Future: Multi-Frame Memory Based Network in Solving Particle Image Velocimetry"
 date: 2021-11-01
 year: 2021
-highlight: False
-is_dissertation: True
-is_other_project: False
+dissertation: True
 venue: 'ArXiv'
 arxiv: local
 arxiv_url: ./pdf/Master_thesis_Zhuokai_Zhao.pdf

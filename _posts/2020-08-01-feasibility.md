@@ -2,10 +2,7 @@
 title: "Early Feasibility Studies of Augmented Reality Navigation for Lateral Skull Base Surgery"
 date: 2020-08-01
 year: 2020
-highlight: False
-is_dissertation: False
-is_other_project: False
-is_show: True
+publication: True
 arxiv: 32569148
 arxiv_url: https://journals.lww.com/otology-neurotology/pages/articleviewer.aspx?year=2020&issue=08000&article=00005&type=Abstract
 teaser: ./images/feasibility.jpg
