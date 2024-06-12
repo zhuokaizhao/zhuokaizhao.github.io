@@ -1,6 +1,5 @@
 ---
-title: "Robust Data Utilization for Efficient and Trustworthy Deep Learning"
-excerpt: 'TODO.'
+title: "Enhanced Data Utilization for Efficient and Trustworthy Deep Learning"
 date: 2024-04-20
 year: 2024
 dissertation: True
