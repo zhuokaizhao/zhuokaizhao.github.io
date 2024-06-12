@@ -5,7 +5,7 @@ date: 2024-04-20
 year: 2024
 highlight: False
 is_dissertation: True
-is_other_project: False
+is_other_project: 0
 venue: 'ArXiv'
 arxiv: local
 arxiv_url:
