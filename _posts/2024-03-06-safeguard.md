@@ -15,5 +15,5 @@ authors: <a target="_blank" href='https://billchan226.github.io/'>Zhaorun Chen</
          <a>Xuhao Zhao</a>,
          <a>Liang Gong</a>,
          and <a>Chengliang Liu</a>
-publication: In submission
+publication: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 ---

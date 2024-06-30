@@ -5,7 +5,7 @@ year: 2024
 dissertation: True
 venue: 'ArXiv'
 arxiv: local
-arxiv_url:
+arxiv_url: https://knowledge.uchicago.edu/record/12434?v=pdf
 teaser: ./images/phd_overview.png
 authors: <b>Zhuokai Zhao</b>
 publication: Ph.D. in Computer Science
