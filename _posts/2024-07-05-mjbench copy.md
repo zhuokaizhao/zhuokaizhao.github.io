@@ -1,0 +1,14 @@
+---
+title: "MJ-BENCH: Is Your Multimodal Reward Model Really a Good Judge for Text-to-Image Generation?"
+date: 2024-07-05
+year: 2024
+paper: True
+venue: 'ArXiv'
+arxiv: 2407.04842
+arxiv_url: https://arxiv.org/pdf/2407.04842.pdf
+code: https://github.com/MJ-Bench/MJ-Bench
+authors: Zhaorun Chen*, Yichao Du*, Zichen Wen*, Yiyang Zhou*, Chenhang Cui, Zhenzhen Weng, Haoqin Tu,
+authors2: Chaoqi Wang, Zhengwei Tong, Qinglan Huang, Canyu Chen, Qinghao Ye, Zhihong Zhu, Yuqing Zhang, Jiawei Zhou,
+authors3: <b>Zhuokai Zhao</b>, Rafael Rafailov, Chelsea Finn, and Huaxiu Yao
+publication: Preliminary version appeared in ICML Workshop on Foundation Models in the Wild
+---

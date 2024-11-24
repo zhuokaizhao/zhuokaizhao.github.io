@@ -1,7 +1,7 @@
 ---
-title: "Multi-Modality Guidance Network For Missing Modality Inference"
-date: 2023-09-07
-year: 2023
+title: "Multimodal Guidance Network for Missing-Modality Inference in Content Moderation"
+date: 2024-08-02
+year: 2024
 paper: True
 venue: 'ArXiv'
 arxiv: 2309.03452
