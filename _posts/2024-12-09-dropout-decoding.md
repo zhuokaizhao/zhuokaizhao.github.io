@@ -8,7 +8,7 @@ arxiv: 2412.06474
 arxiv_url: https://arxiv.org/pdf/2412.06474
 code: https://github.com/kigb/DropoutDecoding
 authors: Yixiong Fang, 
-         Ziran Yang, 
+         <a target="_blank" href='https://ziranyang0.github.io/'>Ziran Yang</a>, 
          <a target="_blank" href='https://billchan226.github.io/'>Zhaorun Chen</a>,
          <b>Zhuokai Zhao†</b>, 
          and <a target="_blank" href='https://sites.harvard.edu/jzhou/'>Jiawei Zhou†</a>
