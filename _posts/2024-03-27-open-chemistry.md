@@ -2,7 +2,7 @@
 title: "OpenChemistry/Stempy: Stable Version"
 date: 2024-03-27
 year: 2024
-project: True
+other_project: True
 venue: 'ArXiv'
 arxiv: True
 arxiv_url: https://zenodo.org/records/10887925
