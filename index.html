@@ -295,11 +295,7 @@ layout: default
 
 <div id="Research" class='xtitle'>Research</div>
 <div style="text-align: justify;clear: both; position: relative; bottom:0px;">
-  My research interest is to develop novel algorithms that improve the trustworthiness, robustness,
-  and data efficiency for multimodal deep learning models. More recently, I have been focusing on
-  enhancing fairness, hallucinations reduction and reasoning capabilities for large language models
-  (LLMs) and large vision-language models (LVLMs). At Meta AI, I also work on continued-pretraining
-  and finetuning Llama as the next-gen recommender backbone.
+  My research focuses on developing novel algorithms to enhance the post-training effectiveness (e.g., improved reasoning, reduced hallucinations) and efficiency (e.g., lower data and compute requirements) of multimodal large language models (MLLMs), as well as multi-agent systems that leverage them. At Meta, I also work on adapting MLLMs and agent-based frameworks for recommender systems.
   <br /><br />
 </div>
 
@@ -309,6 +305,75 @@ layout: default
   <span style="color:#333;font-size: 14px; font-family: Helvetica, Arial, sans-serif; ">
     <b> (* indicates co-first authorship, † indicates equal mentorship)</b>
   </span>
+</div>
+<!-- publications in 2025 -->
+<div id="2025" class='xtitle'> 2025
+  <span style="color:#333;font-size: 14px; font-family: Helvetica, Arial, sans-serif; ">
+  </span>
+</div>
+<div class="posts">
+  {% for post in site.posts %}
+
+  {% if post.year == 2025 and post.paper %}
+
+  <article class="post">
+
+    <div class="papertitle entry">{{ post.title }}</div>
+
+    <div class="entry">
+      {{ post.authors }}
+    </div>
+
+    <div class="entry">
+      {{ post.authors2 }}
+    </div>
+
+    <div class="entry">
+      {{ post.authors3 }}
+    </div>
+
+    <div class="entry">
+      <i>{{post.publication}}</i>, <i>{{post.year}}</i>
+      {% if post.journal%}
+      /
+      <i>{{post.journal}}</i>, <i>{{post.year}}</i>
+      {% endif %}
+    </div>
+
+    <div class="entry">
+
+      {% if post.arxiv%}
+      <a class='links' target="_blank" href="{{ post.arxiv_url }}" rel="paperurl">PDF</a>
+      {% endif %}
+
+      {% if post.demo%}
+      /
+      <a class='links' target="_blank" href="{{ post.demo }}" rel="paperurl">Online Demo</a>
+      {% endif %}
+
+      {% if post.project%}
+      /
+      <a class='links' target="_blank" href="{{ post.project }}" rel="paperurl">Project Page</a>
+      {% endif %}
+
+      {% if post.code%}
+      /
+      <a target="_blank" href="{{post.code}}">Code</a>
+      {% endif %}
+
+      {% if post.code%}
+      <div style="display: inline-block; float:right" class="xcode">
+        <!-- <a class="github-button" href="{{post.code}}" data-show-count="true">Star</a>  -->
+        <a href="{{post.code}}"><img
+            src="https://img.shields.io/github/stars/{{post.code| replace:'https://github.com/', ''}}?style=social" /></a>
+      </div>
+      {% endif %}
+
+    </div>
+    <div style="clear:both"></div>
+  </article>
+  {% endif %}
+  {% endfor %}
 </div>
 <!-- publications in 2024 -->
 <div id="2024" class='xtitle'> 2024
@@ -890,7 +955,7 @@ layout: default
 <br /><br />
 <br /><br />
 <br /><br />
-<center>Last Updated: December 19, 2024</center>
+<center>Last Updated: March 26, 2025</center>
 <br /><br />
 <center>
   <script type='text/javascript' id='clustrmaps'
